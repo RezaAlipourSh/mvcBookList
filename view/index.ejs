@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" type="text/css">
+</head>
+
+<!-- دستور include برای من باید با قاصله از- گذاشته شود تا بدرستی کار کند  -->
+<!-- چرایی آن معلوم نیست و طبق اموزش کار نمیکند -->
+<!-- اگر متوجه موضوعی در این رابطه شدید با من در میان بگذارید با تشکر -->
+
+<body class="body">
+    <%- include("./partials/nav.ejs")%>
+        <%- include("./partials/header.ejs")%>
+            <div>
+                <%- include("./partials/booklist.ejs")%>
+            </div>
+            <%- include("./partials/footer.ejs")%>
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+<div class="booksection">
+    <%books.forEach(book=> {%>
+        <ul>
+            <li>
+                <%=book.name%>
+            </li>
+            <li>
+                Description: <%=book.detail%>
+            </li>
+            <li>
+                Pages: <%=book.page%>
+            </li>
+            <li>
+                Writer: <%=book.author%>
+            </li>
+            <li>
+                Language: <%=book.lang%>
+            </li>
+            <li>
+                Publisher: <%=book.publisher%>
+            </li>
+        </ul>
+        <%})%>
+</div>
